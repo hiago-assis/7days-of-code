@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio JS</title>
+</head>
+
+<body>
+    
+    <div class="container">
+        
+        <div class="container__conteudo">
+            
+            <div class="container__informacoes">
+                <img src="./img/trophy.png" alt="ícone de um troféu" />
+                <h2 class="section-title">Digite seu nome</h2>
+                <div class="input-wrapper">
+                    <input type="text" id="nome" class="input-name" placeholder="">
+                </div>
+
+                <h2 class="section-title">Digite sua idade</h2>
+                <div class="input-wrapper">
+                    <input type="text" id="idade" class="input-name" placeholder="">
+                </div>
+
+                <h2 class="section-title">Qual linguagem está aprendendo?</h2>
+                <div class="input-wrapper">
+                    <input type="text" id="linguagem" class="input-name" placeholder="">
+                </div>
+
+                <button class="button-add" onclick="enviar()">Enviar</button>
+                
+                <p id="mensagem" class="name-list" aria-labelledby="listaAmigos" role="list"></p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js" defer></script>
+</body>
+
+</html>
