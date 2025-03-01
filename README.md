@@ -24,10 +24,24 @@ Repositório criado para compartilhar as soluções dos desafios 7DaysOfCode
 
 <br>
   
-<img src="https://github.com/user-attachments/assets/d0012f04-7cfe-4406-b445-fd597f8f630d" width="900px" height="500px">
+<img src="https://github.com/user-attachments/assets/d0012f04-7cfe-4406-b445-fd597f8f630d" >
 
 [Solução do segundo dia](./Segundo)
-  
+
+
+## Dia 2
+
+### Crie os destinos possíveis de um jogo, em que o usuário consiga escolher
+
+- Se quer seguir para área de Front-End ou seguir para a área de Back-End.
+- Caso esteja na área de Front-End, se quer aprender React ou aprender Vue. Caso esteja na área de Back-End, poderá aprender C# ou aprender Java.
+- Depois, independente das escolhas anteriores, o usuário poderá escolher entre seguir se especializando na área escolhida ou seguir se desenvolvendo para se tornar Fullstack. Você deve exibir na tela uma mensagem específica para cada escolha.
+- Por fim, pergunte quais são as tecnologias nas quais a pessoa gostaria de se especializar ou de conhecer. 
+
+<img src="https://github.com/user-attachments/assets/da9eef35-ef20-4750-801d-0b948c74a850" >
+
+[Solução do Terceiro dia](./Terceiro)
+
 
 ## 👨‍💻 Tecnologias
 
