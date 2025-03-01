@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio JS</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container__conteudo">
+            <div class="container__informacoes">
+                <div class="container__texto">
+
+
+                    <p >Qual área você quer seguir?</p>
+
+                    <div class="botao">
+                    <button onclick="escolhaFrontBack(backEnd)" id="backEnd">Back-End</button>
+                    <button onclick="escolhaFrontBack(frontEnd)" id="frontEnd">Front-End</button>
+                    </div>
+
+                    <br>
+
+                    <div class="botao">
+                    <button id="CSharp" onclick="escolhaFrontBack(CSharp)" hidden>C#</button>
+                    <button id="java" onclick="escolhaFrontBack(java)" hidden>Java</button>
+                    </div>
+
+                    <div class="botao">
+                    <button id="react" onclick="escolhaFrontBack(react)" hidden>React</button>
+                    <button id="vue" onclick="escolhaFrontBack(vue)" hidden>Vue</button>
+                    </div>
+                    
+
+                   
+                    <div id="escolherArea" hidden>
+
+                        <p >Qual área você quer seguir?</p>
+
+                    <div class="botao">
+                    <button id="especialista" onclick="desenvolver(especialista)">Especialização </button>
+                    <button id="fullstack" onclick="desenvolver(fullstack)">Fullstack</button>
+                    </div>
+
+                    <p id="mensagem"></p>
+                    </div> 
+                </div>
+                   
+                <div id="escolherTecnologia" hidden>
+
+                    <p>Quais tecnologias você gostaria de aprender?</p>
+                    <input class="input-wrapper" id="campoTecnologia"> </input>
+                    <button id="enviarTecnologia" id="botaoTecnologia" onclick="adicionarTecnologia()">Enviar</button>
+                    
+                <ul id="listaTecnologia" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
+    
+                </div>
+                <img src="./img/trophy.png" alt="ícone de um troféu" />
+            </div>
+        </div>
+    </div>
+    <script src="app.js" defer></script>
+</body>
+
+</html>
