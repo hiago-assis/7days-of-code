@@ -130,4 +130,7 @@ h2 {
     font-size: 12px;
     background-color: #1875E8;
 }
+.button-add:hover {
+    background: #6f48c9;
+}
 
