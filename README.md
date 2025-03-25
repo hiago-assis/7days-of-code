@@ -53,6 +53,25 @@ Repositório criado para compartilhar as soluções dos desafios 7DaysOfCode
 
 [Solução do Terceiro dia](./Terceiro)
 
+<br>
+
+## Dia 4
+
+### Crie um programa que comece com um valor randômico entre 0 a 10 para o número que você vai adivinhar.
+
+- O programa vai perguntar para você qual o valor que você deseja chutar.
+- Caso você acerte o número secreto, ele irá te parabenizar
+- Caso você erre, ele vai te dar mais 2 tentativas.
+- Por fim, caso você não acerte nenhuma vez, ele vai imprimir qual era o número inicial.
+
+<br>
+
+<img src="https://github.com/user-attachments/assets/d41aa60e-c93d-4153-a9d2-4b16e77b5f25" >
+
+<br>
+
+[Solução do Terceiro dia](./Quarto)
+
 
 ## 👨‍💻 Tecnologias
 
