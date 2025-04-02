@@ -59,9 +59,9 @@ Repositório criado para compartilhar as soluções dos desafios 7DaysOfCode
 
 ### Crie um programa que comece com um valor randômico entre 0 a 10 para o número que você vai adivinhar.
 
-- O programa vai perguntar para você qual o valor que você deseja chutar.
+- O programa vai perguntar para você qual o valor que você deseja chutar
 - Caso você acerte o número secreto, ele irá te parabenizar
-- Caso você erre, ele vai te dar mais 2 tentativas.
+- Caso você erre, ele vai te dar mais 2 tentativas
 - Por fim, caso você não acerte nenhuma vez, ele vai imprimir qual era o número inicial.
 
 <br>
@@ -70,7 +70,26 @@ Repositório criado para compartilhar as soluções dos desafios 7DaysOfCode
 
 <br>
 
-[Solução do Terceiro dia](./Quarto)
+[Solução do Quarto dia](./Quarto)
+
+<br>
+
+## Dia 5
+
+### Crie um programa que simule uma lista de compras 
+
+- Escolha qual categoria o item se encaixa
+- Em seguida insira o nome do item
+- Após o item ser inserido vai aparecer uma lista, que é atualizada cada vez que um item é adicionado.
+
+<br>
+
+<img src = "https://github.com/user-attachments/assets/dc7ca3d5-cb62-4fd8-bb31-fe24857c1988">
+
+<br>
+
+[Solução do Quinto dia](./Quinto)
+
 
 
 ## 👨‍💻 Tecnologias
